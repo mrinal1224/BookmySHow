@@ -24,7 +24,7 @@ function Register() {
                   id="name"
                   type="text"
                   placeholder="Enter your name"
-                  rules={[{ required: true, message: "Name is required!" }]}
+                 
                 ></Input>
               </Form.Item>
 
@@ -39,7 +39,7 @@ function Register() {
                   id="email"
                   type="text"
                   placeholder="Enter your Email"
-                  rules={[{ required: true, message: "Email is required!" }]}
+                  
                 ></Input>
               </Form.Item>
 
@@ -52,9 +52,9 @@ function Register() {
               >
                 <Input
                   id="password"
-                  type="text"
+                  type="password"
                   placeholder="Enter your Password"
-                  rules={[{ required: true, message: "Password is required!" }]}
+                 
                 ></Input>
               </Form.Item>
 

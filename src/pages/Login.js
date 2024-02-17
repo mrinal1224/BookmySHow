@@ -26,7 +26,6 @@ function Login() {
                 id="email"
                 type="text"
                 placeholder="Enter your Email"
-                rules={[{ required: true, message: "Email is required!" }]}
               ></Input>
             </Form.Item>
 
@@ -39,9 +38,9 @@ function Login() {
             >
               <Input
                 id="password"
-                type="text"
+                type="password"
                 placeholder="Enter your Password"
-                rules={[{ required: true, message: "Password is required!" }]}
+                
               ></Input>
             </Form.Item>
 
